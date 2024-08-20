@@ -1,6 +1,6 @@
 package api;
 
-public abstract class Animals implements IAnimals {
+public abstract class Animals {
     public final boolean hungry;
     public final String sound;
 
@@ -9,13 +9,9 @@ public abstract class Animals implements IAnimals {
         this.sound = sound;
     }
 
-    @Override
-    public boolean hungry() {
-        return hungry;
-    }
-
-    @Override
-    public String sound() {
-        return sound;
+    public void actions() {
+        if (hungry) {
+            System.out.println(sound);
+        }
     }
 }
