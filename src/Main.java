@@ -1,7 +1,10 @@
+import impl.Cats;
+import impl.Dogs;
+
 public class Main {
 
-    public static Cats cats = new Cats();
-    public static Dogs dogs = new Dogs();
+    public static Cats cats = new Cats(false);
+    public static Dogs dogs = new Dogs(true);
 
     public static void main(String[] args) {
         if (cats.hungry()) {
