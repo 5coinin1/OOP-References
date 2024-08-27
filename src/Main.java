@@ -1,13 +1,12 @@
-import impl.Cats;
-import impl.Dogs;
-
 public class Main {
 
-    public static Cats cats = new Cats(true);
-    public static Dogs dogs = new Dogs(true);
-
     public static void main(String[] args) {
-        cats.actions();
-        dogs.actions();
+        Time t1 = new Time();
+        Time t2 = new Time(7, 55, 10);
+
+        t1.setHour(12).setMinute(32).setSecond(23);
+
+        System.out.println("t1 is " + t1);
+        System.out.println("t2 is " + t2);
     }
 }
