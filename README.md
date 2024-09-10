@@ -1,6 +1,6 @@
 # INFO
 
-![img.png](src/resource/img.png)
+![img.png](src/src/resource/img.png)
 
 ## Câu 1. (CLO.1 – PI1.1, 1.2 – SO1): 3 điểm
 
