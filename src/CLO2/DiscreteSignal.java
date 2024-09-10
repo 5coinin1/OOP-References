@@ -2,19 +2,16 @@ package CLO2;
 
 public class DiscreteSignal implements Signal {
     private final double amplitude;
-    private final double frequency;
-    private final double period;
-    private final double wavelength;
-    private final double[] signal;
-    private final double sampleRate;
+    private final int time;
 
-    public DiscreteSignal(double amplitude, double frequency, double period, double wavelength, double[] signal) {
+    public DiscreteSignal(double amplitude, int time) {
         this.amplitude = amplitude;
-        this.frequency = frequency;
-        this.period = period;
-        this.wavelength = wavelength;
-        this.signal = signal;
-        this.sampleRate = wavelength / amplitude;
+        this.time = time;
+    }
+
+    @Override
+    public int getTime() {
+        return time;
     }
 
     @Override
@@ -22,26 +19,15 @@ public class DiscreteSignal implements Signal {
         return amplitude;
     }
 
+    // Tính toán tín hiệu x(n) tại thời điểm n theo định nghĩa x(n) = ∑ x(k) * δ(n-k)
     @Override
-    public double getFrequency() {
-        return frequency;
-    }
+    public double getSignal(double n) {
+        double sum = 0.0;
 
-    @Override
-    public double getPeriod() {
-        return period;
-    }
-
-    @Override
-    public double getWavelength() {
-        return wavelength;
-    }
-
-    public double getSampleRate() {
-        return sampleRate;
-    }
-
-    public double[] getSignal() {
-        return signal;
+        // Tính δ(n-k): chỉ khi n == k thì δ(n-k) = 1, còn lại là 0
+        if (n == time) {
+            sum += amplitude; // x(k) * δ(n-k) = x(k) * 1 = x(k)
+        }
+        return sum;
     }
 }
