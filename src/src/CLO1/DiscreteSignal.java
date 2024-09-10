@@ -61,7 +61,7 @@ public class DiscreteSignal implements Signal {
     }
 
     // Dirac delta function: returns 1 if value == 0, otherwise 0
-    public static int delta(int value) {
+    public int delta(int value) {
         return (value == 0) ? 1 : 0;
     }
 }
