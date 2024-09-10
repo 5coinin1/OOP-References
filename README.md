@@ -6,5 +6,5 @@
 
 > Trong lớp tín hiệu rời rạc, Discrete Signal thực hiện `(“implementation”)` định nghĩa tín hiệu rời rạc như sau:
 ![img_1.png](src/src/resource/img_1.png)
-> Request:
+### Request:
 > ![img_2.png](src/src/resource/img_2.png)
