@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f4ee24d-f984-44b9-b4bb-4fa418049845" name="Changes" comment="MidTerm exam | Changelogs:&#10;[/] Updated DiscreteSignal&#10;[/] Updated Signal">
-      <change afterPath="$PROJECT_DIR$/src.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CLO2/DiscreteSignal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CLO2/DiscreteSignal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/CLO1/ContinuousSignal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CLO1/ContinuousSignal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/CLO1/DiscreteSignal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CLO1/DiscreteSignal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/CLO1/Radar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CLO1/Radar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/CLO1/Signal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CLO1/Signal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/CLO1/hi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/resource/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/resource/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/resource/img_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/img_2.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="CLO1" />
+        <entry key="$PROJECT_DIR$" value="CLO2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,7 +76,9 @@
   "keyToString": {
     "Application.Main.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "CLO1",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/CLO1/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,6 +91,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CLO1\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CLO1" />
       <recent name="D:\CLO1\src\resource" />
@@ -126,6 +131,7 @@
       <updated>1725927493455</updated>
       <workItem from="1725927494578" duration="7423000" />
       <workItem from="1725942763524" duration="36000" />
+      <workItem from="1725942862859" duration="286000" />
     </task>
     <task id="LOCAL-00001" summary="Cau 1.(CLO.1-PI1.1, 1.2-SO1)">
       <option name="closed" value="true" />
@@ -167,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725933131761</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="MidTerm exam | Changelogs:&#10;[/] Updated DiscreteSignal&#10;[/] Updated Signal">
+      <option name="closed" value="true" />
+      <created>1725943054528</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725943054528</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +198,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="CLO2" />
+                        <option value="CLO1" />
                       </list>
                     </value>
                   </entry>
