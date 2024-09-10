@@ -8,3 +8,8 @@
 ![img_1.png](src/src/resource/img_1.png)
 ### Request:
 > ![img_2.png](src/src/resource/img_2.png)
+
+### Experiment and expected results: 
+> ![img.png](src/src/resource/expected.png)
+> Results:
+> ![img.png](src/src/resource/results.png)

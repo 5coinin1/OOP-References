@@ -19,8 +19,8 @@ public class Main {
         //System.out.println("x(2) = " + discreteSignal.calculate(2)); // Expected: 6.0
         //System.out.println("x(0) = " + discreteSignal.calculate(0)); // Expected: 2.0
 
-        var n = Arrays.asList(0, 1, 2, 3);
-        var amplitude = Arrays.asList(2.0, 4.0, 6.0, 8.0);
+        var n = Arrays.asList(0, 1, 2, 3); // x(n)
+        var amplitude = Arrays.asList(2.0, 4.0, 6.0, 8.0); // expected output
 
         // Add multiple samples at once
         discreteSignal.addSamples(n, amplitude);
