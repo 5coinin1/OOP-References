@@ -1,3 +1,5 @@
+package CLO1;
+
 public class ContinuousSignal implements Signal {
     private final double amplitude;
     private final double frequency;
@@ -29,10 +31,5 @@ public class ContinuousSignal implements Signal {
     @Override
     public double getWavelength() {
         return wavelength;
-    }
-
-    @Override
-    public double getValue(double t) {
-        return amplitude * Math.sin(2 * Math.PI * frequency * t);
     }
 }

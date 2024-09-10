@@ -1,3 +1,5 @@
+package CLO1;
+
 public class DiscreteSignal implements Signal {
     private final double amplitude;
     private final double frequency;
@@ -33,15 +35,6 @@ public class DiscreteSignal implements Signal {
     @Override
     public double getWavelength() {
         return wavelength;
-    }
-
-    @Override
-    public double getValue(double t) {
-        int index = (int) (t * sampleRate);
-        if (index >= 0 && index < signal.length) {
-            return signal[index];
-        }
-        return 0;
     }
 
     public double getSampleRate() {
